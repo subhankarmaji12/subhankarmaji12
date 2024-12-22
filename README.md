@@ -33,9 +33,10 @@
 
 3. **[Zomato_Dashboard_Analytics](https://github.com/subhankarmaji12/Zomato_Dashboard_Analytics)**  
    An interactive dashboard visualizing global HIV incidence data, providing insights into trends across different regions and demographics.  
-   ![Blinkit Project](https://github.com/subhankarmaji12/Zomato_Dashboard_Analytics/blob/main/index.png?raw=true)
+   ![zomato dashboard](https://github.com/subhankarmaji12/Zomato_Dashboard_Analytics/blob/main/index.png?raw=true)
 
----
+4. **[Python Diwali Sales Analysis](https://github.com/subhankarmaji12/Sales-Analysis-With-Python)**
+   ![Diwali Sales Analysis](https://raw.githubusercontent.com/subhankarmaji12/Sales-Analysis-With-Python/refs/heads/main/bar%20chart.jpeg)
 
 ### ✨ Fun Fact  
 - I enjoy sharing coding knowledge and creating memes to make tech life fun! 😄  
