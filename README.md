@@ -32,7 +32,7 @@
    ![Web App Demo](https://github.com/subhankarmaji12/Loan-Approval-Prediction-Web-App/blob/main/assets/2024-12-21%2017-52-18.gif?raw=true)
 
 3. **[Zomato_Dashboard_Analytics](https://github.com/subhankarmaji12/Zomato_Dashboard_Analytics)**  
-   An interactive dashboard visualizing global HIV incidence data, providing insights into trends across different regions and demographics.  
+  This project aims to leverage data analysis and machine learning to enhance the sales performance of Blinkit. By analyzing various factors such as item MRP, outlet type, item visibility, and sales data, the goal is to extract actionable insights and build predictive models to optimize sales strategies.  
    ![zomato dashboard](https://github.com/subhankarmaji12/Zomato_Dashboard_Analytics/blob/main/index.png?raw=true)
 
 4. **[Python Diwali Sales Analysis](https://github.com/subhankarmaji12/Sales-Analysis-With-Python)**
