@@ -1,59 +1,342 @@
+<p align="center">
+  <img src="https://github.com/subhankarmaji12/subhankarmaji12/blob/main/glass-header.svg" width="900" />
+</p>
 
-<h1 align="center">Hi 👋! Welcome to Subhankar Maji's GitHub</h1>
-<h3 align="center">🚀 Data Analyst | Machine Learning Engineer | Open Source Enthusiast | From India 🇮🇳</h3>
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=subhankarmaji12&theme=matrix&no-frame=true&row=1&column=6" />
+</p>
 
-<div align="center">
-  <img src="https://github.com/coder-akram-khan/coder-akram-khan/blob/main/Types%20Of%20Activation%20Functions%20in%20Neural%20Networks%20and%20Rationale%20behind%20it.gif?raw=true" width="1000" alt="Coding Gif" />
-</div>
+
+
+
+
+
+<!-- GitHub Contribution Graph -->
+<!-- 🚀 Sci-Fi GitHub Stats -->
+
+### 📊 GitHub Stats 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=subhankarmaji12&style=for-the-badge&color=39FF14" />
+</p>
+
+
+<p align="center">
+
+  <!-- GitHub Stats + Top Languages (Aligned Row) -->
+  <img src="https://github-readme-stats-one-bice.vercel.app/api?username=subhankarmaji12&show_icons=true&theme=dracula&hide_border=true" height="170" />
+  &nbsp;&nbsp;&nbsp;
+  <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs?username=subhankarmaji12&layout=compact&theme=dracula&hide_border=true" height="170" />
+
+  <br/><br/>
+
+  <!-- Neon Contribution Graph (Full Width) -->
+  <img src="https://ghchart.rshah.org/39ff14/subhankarmaji12" width="820" />
+
+  <br/><br/>
+
+  <!-- GitHub Streak Stats (Centered) -->
+  <img src="https://streak-stats.demolab.com?user=subhankarmaji12&theme=tokyonight&hide_border=true&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" width="820" />
+
+  <br/><br/>
+
+  <!-- Profile Summary Card (Perfect Width) -->
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=subhankarmaji12&theme=tokyonight" width="820" />
+
+</p>
+
+
+
 
 ---
 
-### 📊 GitHub Stats  
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=subhankarmaji12&show_icons=true&theme=dracula" height="150" alt="GitHub Stats" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=coder-akram-khan&layout=compact&theme=dracula" height="150" alt="Top Languages" />
-</div>
+## 💻 Technical Skills
+
+<table>
+<tr><th>Category</th><th>Skills</th></tr>
+
+<tr>
+<td><b>🐍 Programming</b></td>
+<td>
+<img src="https://img.shields.io/badge/Python-14354C?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+</td>
+</tr>
+
+<tr>
+<td><b>🗄️ Databases</b></td>
+<td>
+<img src="https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+<img src="https://img.shields.io/badge/SQL-025E8C?style=for-the-badge&logo=sqlite&logoColor=white" />
+</td>
+</tr>
+
+<tr>
+<td><b>☁️ Cloud & Big Data</b></td>
+<td>
+<img src="https://img.shields.io/badge/Azure-0089D6?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure_Data_Factory-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+<img src="https://img.shields.io/badge/Azure_Synapse-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" />
+<img src="https://img.shields.io/badge/Databricks-FC4C02?style=for-the-badge&logo=databricks&logoColor=white" />
+<img src="https://img.shields.io/badge/Apache_Spark-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
+</td>
+</tr>
+
+<tr>
+<td><b>🤖 Machine Learning</b></td>
+<td>
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" />
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" />
+<img src="https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" />
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/Spark_MLlib-E25A1C?style=for-the-badge&logo=apachespark&logoColor=white" />
+</td>
+</tr>
+
+<tr>
+<td><b>📊 Visualization</b></td>
+<td>
+<img src="https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black" />
+<img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=plotly&logoColor=white" />
+<img src="https://img.shields.io/badge/Seaborn-005C84?style=for-the-badge&logo=seaborn&logoColor=white" />
+<img src="https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white" />
+</td>
+</tr>
+
+<tr>
+<td><b>🧩 Dashboards & Apps</b></td>
+<td>
+<img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white" />
+<img src="https://img.shields.io/badge/Dash-0176B6?style=for-the-badge&logo=plotly&logoColor=white" />
+</td>
+</tr>
+
+<tr>
+<td><b>🧪 IDEs</b></td>
+<td>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white" />
+<img src="https://img.shields.io/badge/Anaconda-44A833?style=for-the-badge&logo=anaconda&logoColor=white" />
+<img src="https://img.shields.io/badge/Spyder-FF0000?style=for-the-badge&logo=spyder-ide&logoColor=white" />
+<img src="https://img.shields.io/badge/RStudio-75AADB?style=for-the-badge&logo=rstudio&logoColor=white" />
+<img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" />
+<img src="https://img.shields.io/badge/PyCharm-00C4B7?style=for-the-badge&logo=pycharm&logoColor=white" />
+</td>
+</tr>
+
+<tr>
+<td><b>🛠️ DevOps, OS & Tools</b></td>
+<td>
+<img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" />
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
+<img src="https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
+<img src="https://img.shields.io/badge/PuTTY-354A5F?style=for-the-badge&logo=putty&logoColor=white" />
+<img src="https://img.shields.io/badge/WinSCP-004B87?style=for-the-badge&logo=winscp&logoColor=white" />
+<img src="https://img.shields.io/badge/Jenkins-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+</td>
+</tr>
+
+<tr>
+<td><b>📋 Project Management</b></td>
+<td>
+<img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white" />
+</td>
+</tr>
+
+</table>
 
 ---
 
-### 💻 Technical Skills  
-<div align="center"> <a href="#"><img src="https://img.shields.io/badge/Python-%2314354C.svg?style=for-the-badge&logo=python&logoColor=white" alt="Python" /></a> <a href="#"><img src="https://img.shields.io/badge/MySQL-%2300758F.svg?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL" /></a> <a href="#"><img src="https://img.shields.io/badge/PostgreSQL-%23336791.svg?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" /></a> <a href="#"><img src="https://img.shields.io/badge/SQLite-%23003B57.svg?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite" /></a> <a href="#"><img src="https://img.shields.io/badge/Scikit--Learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-Learn" /></a> <a href="#"><img src="https://img.shields.io/badge/Excel-%2300758F.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Excel" /></a> <a href="#"><img src="https://img.shields.io/badge/Matplotlib-%23013243.svg?style=for-the-badge&logo=matplotlib&logoColor=white" alt="Matplotlib" /></a> <a href="#"><img src="https://img.shields.io/badge/Seaborn-%23005C84.svg?style=for-the-badge&logo=seaborn&logoColor=white" alt="Seaborn" /></a> <a href="#"><img src="https://img.shields.io/badge/Streamlit-%23FF4B4B.svg?style=for-the-badge&logo=streamlit&logoColor=white" alt="Streamlit" /></a> <a href="#"><img src="https://img.shields.io/badge/Dash-%230176B6.svg?style=for-the-badge&logo=plotly&logoColor=white" alt="Dash" /></a> <a href="#"><img src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly" /></a> <a href="#"><img src="https://img.shields.io/badge/Jupyter-%23F37626.svg?style=for-the-badge&logo=jupyter&logoColor=white" alt="Jupyter" /></a> <a href="#"><img src="https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda" /></a> <a href="#"><img src="https://img.shields.io/badge/VS_Code-%23007ACC.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code" /></a> <a href="#"><img src="https://img.shields.io/badge/PyCharm-%2300C4B7.svg?style=for-the-badge&logo=pycharm&logoColor=white" alt="PyCharm" /></a> <a href="#"><img src="https://img.shields.io/badge/Linux/Ubuntu-%23E95420.svg?style=for-the-badge&logo=ubuntu&logoColor=white" alt="Linux/Ubuntu" /></a> <a href="#"><img src="https://img.shields.io/badge/Git-%23F05032.svg?style=for-the-badge&logo=git&logoColor=white" alt="Git" /></a> <a href="#"><img src="https://img.shields.io/badge/GitHub-%23181717.svg?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>  <a href="#"><img src="https://img.shields.io/badge/HTML-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white" alt="HTML" /></a> <a href="#"><img src="https://img.shields.io/badge/CSS-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white" alt="CSS" /></a> </div>
+### 🔥 Featured Projects
+
+<table>
+<tr>
+
+<!-- ================= PROJECT 1 ================= -->
+<td width="50%">
+  <h3 align="center">🛒 Blinkit Sales Analysis</h3>
+
+  <p align="center">
+    <!-- <img src="https://raw.githubusercontent.com/subhankarmaji12/subhankarmaji12/main/glow-green.png" width="100%" />
+    <br/> -->
+    <a href="https://github.com/subhankarmaji12/blinkit-sales-analysis">
+      <img src="https://raw.githubusercontent.com/subhankarmaji12/blinkit-sales-analysis/main/BlinkitDataAnalysis.png"
+           width="85%" />
+    </a>
+  </p>
+
+  <p align="center">End-to-end EDA + ML project analyzing Blinkit sales performance.</p>
+
+  <p align="center">
+    <img src="https://img.shields.io/github/stars/subhankarmaji12/blinkit-sales-analysis?color=39FF14&style=flat" />
+    <img src="https://img.shields.io/github/forks/subhankarmaji12/blinkit-sales-analysis?color=39FF14&style=flat" />
+  </p>
+
+  <p align="center">
+    <a href="https://github.com/subhankarmaji12/blinkit-sales-analysis">
+      <img src="https://img.shields.io/badge/VIEW_PROJECT-00C2FF?style=for-the-badge&logo=github&logoColor=white" />
+    </a>
+  </p>
+</td>
+
+
+<!-- ================= PROJECT 2 ================= -->
+<td width="50%">
+  <h3 align="center">🏦 Loan Approval Prediction App</h3>
+
+  <p align="center">
+    <!-- <img src="https://raw.githubusercontent.com/subhankarmaji12/subhankarmaji12/main/glow-blue.png" width="100%" /> -->
+    <!-- <br/> -->
+    <a href="https://github.com/subhankarmaji12/Loan-Approval-Prediction-Web-App">
+      <img src="https://raw.githubusercontent.com/subhankarmaji12/Loan-Approval-Prediction-Web-App/main/assets/app.gif"
+           width="85%" />
+    </a>
+  </p>
+
+  <p align="center">ML-based Streamlit app predicting loan approvals in real-time.</p>
+
+  <p align="center">
+    <img src="https://img.shields.io/github/stars/subhankarmaji12/Loan-Approval-Prediction-Web-App?color=39FF14&style=flat" />
+    <img src="https://img.shields.io/github/forks/subhankarmaji12/Loan-Approval-Prediction-Web-App?color=39FF14&style=flat" />
+  </p>
+
+  <p align="center">
+    <a href="https://github.com/subhankarmaji12/Loan-Approval-Prediction-Web-App">
+      <img src="https://img.shields.io/badge/VIEW_PROJECT-00C2FF?style=for-the-badge&logo=github&logoColor=white" />
+    </a>
+  </p>
+</td>
+
+</tr>
+
+
+<tr>
+
+<!-- ================= PROJECT 3 ================= -->
+<td width="50%">
+  <h3 align="center">🍽️ Zomato EDA Dashboard</h3>
+
+  <p align="center">
+    <!-- <img src="https://raw.githubusercontent.com/subhankarmaji12/subhankarmaji12/main/glow-pink.png" width="100%" /> -->
+    <!-- <br/> -->
+    <a href="https://github.com/subhankarmaji12/Zomato-EDA-Dashboard">
+      <img src="https://raw.githubusercontent.com/subhankarmaji12/Zomato_Dashboard_Analytics/refs/heads/main/index.png"
+           width="85%" />
+    </a>
+  </p>
+
+  <p align="center">Restaurant insights dashboard with visual analytics.</p>
+
+  <p align="center">
+    <img src="https://img.shields.io/github/stars/subhankarmaji12/Zomato_Dashboard_Analytics?color=39FF14&style=flat" />
+    <img src="https://img.shields.io/github/forks/subhankarmaji12/Zomato_Dashboard_Analytics?color=39FF14&style=flat" />
+  </p>
+
+  <p align="center">
+    <a href="https://github.com/subhankarmaji12/Zomato-EDA-Dashboard">
+      <img src="https://img.shields.io/badge/VIEW_PROJECT-00C2FF?style=for-the-badge&logo=github&logoColor=white" />
+    </a>
+  </p>
+</td>
+
+
+<!-- ================= PROJECT 4 ================= -->
+<td width="50%">
+  <h3 align="center">📊 Sales Analysis with python</h3>
+
+  <p align="center">
+    <!-- <img src="https://raw.githubusercontent.com/subhankarmaji12/subhankarmaji12/main/glow-green.png" width="100%" />
+    <br/> -->
+    <a href="https://github.com/subhankarmaji12/Sales-Analysis-With-Python">
+      <img src="https://raw.githubusercontent.com/subhankarmaji12/Sales-Analysis-With-Python/refs/heads/main/salebanner.jpeg"
+           width="85%" />
+    </a>
+  </p>
+
+  <p align="center">Streamlit employee analytics dashboard with KPIs & insights.</p>
+
+  <p align="center">
+    <img src="https://img.shields.io/github/stars/subhankarmaji12/Sales-Analysis-With-Python?color=39FF14&style=flat" />
+    <img src="https://img.shields.io/github/forks/subhankarmaji12/Sales-Analysis-With-Python?color=39FF14&style=flat" />
+  </p>
+
+  <p align="center">
+    <a href="https://github.com/subhankarmaji12/Business_Analytics_Dashboard">
+      <img src="https://img.shields.io/badge/VIEW_PROJECT-00C2FF?style=for-the-badge&logo=github&logoColor=white" />
+    </a>
+  </p>
+</td>
+
+</tr>
+</table>
+
+
 
 ---
-
-### 🔨 Featured Projects  
-1. **[Blinkit Data Sales Analysis](https://github.com/subhankarmaji12/blinkit-sales-analysis)**  
-   Comprehensive data analysis and machine learning project aimed at enhancing sales and operational efficiency for Blinkit.  
-   ![Blinkit Project](https://github.com/subhankarmaji12/blinkit-sales-analysis/blob/main/BlinkitDataAnalysis.png?raw=true)
-
-2. **[Loan Approval Prediction Web App](https://github.com/subhankarmaji12/Loan-Approval-Prediction-Web-App)**  
-   A streamlined web application for predicting loan approvals, helping banks and financial institutions make data-driven decisions.  
-   Demo:  
-   ![Web App Demo](https://github.com/subhankarmaji12/Loan-Approval-Prediction-Web-App/blob/main/assets/2024-12-21%2017-52-18.gif?raw=true)
-
-3. **[Zomato_Dashboard_Analytics](https://github.com/subhankarmaji12/Zomato_Dashboard_Analytics)**  
-  This project aims to leverage data analysis and machine learning to enhance the sales performance of Blinkit. By analyzing various factors such as item MRP, outlet type, item visibility, and sales data, the goal is to extract actionable insights and build predictive models to optimize sales strategies.  
-   ![zomato dashboard](https://github.com/subhankarmaji12/Zomato_Dashboard_Analytics/blob/main/index.png?raw=true)
-
-4. **[Python Diwali Sales Analysis](https://github.com/subhankarmaji12/Sales-Analysis-With-Python)**
-   ![Diwali Sales Analysis](https://raw.githubusercontent.com/subhankarmaji12/Sales-Analysis-With-Python/refs/heads/main/bar%20chart.jpeg)
 
 ### ✨ Fun Fact  
-- I enjoy sharing coding knowledge and creating memes to make tech life fun! 😄  
-  ![Meme Gif](https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif)
+
+<p align="center">
+  I love sharing coding knowledge and creating tech memes —  
+  because learning should always be fun! 😄
+</p>
+
+<p align="center">
+  <img src="https://media.giphy.com/media/13HgwGsXF0aiGY/giphy.gif" width="420" />
+</p>
+
 
 ---
 
 ### 📫 Let’s Connect  
-<div align="center">
-  
-  <a href="mailto:subhankarmajiwork@gmail.com" target="_blank">
-    <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" height="35" alt="Gmail" />
+
+<p align="center">
+
+  <!-- Email -->
+  <a href="mailto:akram.codes.it@gmail.com" target="_blank">
+    <img src="https://img.shields.io/badge/Email_Me-FF4B4B?style=for-the-badge&logo=gmail&logoColor=white" height="40" />
   </a>
-  <a href="https://www.linkedin.com/in/subhankar-maji-7aba49238/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="35" alt="LinkedIn" />
+
+  <!-- LinkedIn -->
+  <a href="https://www.linkedin.com/in/mr-akram-khan/" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn_Profile-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="40" />
   </a>
-  <a href="https://discord.com/users/_subhankarmaji" target="_blank">
-    <img src="https://github.com/coder-akram-khan/coder-akram-khan/blob/main/pngwing.com(5).png?raw=true" height="35" alt="Discord" />
+
+  <!-- Discord -->
+  <a href="https://discord.com/users/oem.ak" target="_blank">
+    <img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" height="40" />
   </a>
-</div>
+
+  <!-- GitHub -->
+  <a href="https://github.com/subhankarmaji12" target="_blank">
+    <img src="https://img.shields.io/badge/GitHub_Profile-181717?style=for-the-badge&logo=github&logoColor=white" height="40" />
+  </a>
+
+</p>
+
+---
+
+<table align="center">
+  <tr>
+    <!-- Follow Me -->
+    <td align="center" width="50%">
+      <h3>⭐ Follow Me on GitHub</h3>
+      <a href="https://github.com/subhankarmaji12" target="_blank">
+        <img src="https://img.shields.io/github/followers/subhankarmaji12?label=Follow%20Me&style=social" height="40" />
+      </a>
+    </td>
+
+    
+  <td align="center" width="50%">
+    
+  <a href="https://github.com/subhankarmaji12" target="_blank">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://github.com/subhankarmaji12" 
+             alt="GitHub QR Code" 
+             width="160" />
+      </a>
+    </td>
+  </tr>
+</table>
