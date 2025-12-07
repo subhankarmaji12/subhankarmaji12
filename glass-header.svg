@@ -1,0 +1,96 @@
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+
+<!-- ✦ STARFIELD BACKGROUND ✦ -->
+<defs>
+  <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+    <stop offset="0%" stop-color="#00CFFF" stop-opacity="0.9"/>
+    <stop offset="100%" stop-color="#00CFFF" stop-opacity="0"/>
+  </radialGradient>
+
+  <!-- Background Stars -->
+  <pattern id="stars" width="40" height="40" patternUnits="userSpaceOnUse">
+    <circle cx="3" cy="3" r="1" fill="#88CCFF" />
+    <circle cx="25" cy="12" r="1" fill="#88CCFF" />
+    <circle cx="10" cy="30" r="1" fill="#88CCFF" />
+    <circle cx="35" cy="28" r="1" fill="#88CCFF" />
+  </pattern>
+
+  <!-- Supernova Neon Border Animation -->
+  <linearGradient id="supernovaBorder">
+    <stop offset="0%" stop-color="#00A8FF">
+      <animate attributeName="stop-color" values="#00A8FF; #33DDFF; #00A8FF" dur="2.2s" repeatCount="indefinite"/>
+    </stop>
+    <stop offset="100%" stop-color="#33DDFF">
+      <animate attributeName="stop-color" values="#33DDFF; #00A8FF; #33DDFF" dur="2.2s" repeatCount="indefinite"/>
+    </stop>
+  </linearGradient>
+
+  <!-- Blur -->
+  <filter id="blur">
+    <feGaussianBlur stdDeviation="12"/>
+  </filter>
+
+  <!-- Glitch Effect -->
+  <filter id="glitch">
+    <feTurbulence type="fractalNoise" baseFrequency="0.009" numOctaves="3" result="noise"/>
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="5" />
+  </filter>
+</defs>
+
+<!-- ✦ STARFIELD ✦ -->
+<rect width="900" height="260" fill="black"/>
+<rect width="900" height="260" fill="url(#stars)" opacity="0.35">
+  <animate attributeName="opacity" values="0.2;0.35;0.2" dur="6s" repeatCount="indefinite"/>
+</rect>
+
+<!-- ✦ FLOATING PARTICLES (PARALLAX) ✦ -->
+<circle cx="140" cy="80" r="16" fill="url(#starGlow)" filter="url(#blur)">
+  <animate attributeName="cx" values="140;760;140" dur="20s" repeatCount="indefinite"/>
+  <animate attributeName="cy" values="80;180;80" dur="15s" repeatCount="indefinite"/>
+</circle>
+
+<circle cx="700" cy="180" r="10" fill="url(#starGlow)" filter="url(#blur)">
+  <animate attributeName="cx" values="700;200;700" dur="18s" repeatCount="indefinite"/>
+  <animate attributeName="cy" values="180;60;180" dur="12s" repeatCount="indefinite"/>
+</circle>
+
+<!-- ✦ ENERGY RIPPLE RING ✦ -->
+<circle cx="450" cy="130" r="30" stroke="#33DDFF" stroke-width="2" fill="none" opacity="0.7">
+  <animate attributeName="r" values="30;180" dur="3s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.7;0" dur="3s" repeatCount="indefinite"/>
+</circle>
+
+<!-- ✦ HOLOGRAM SCAN LINE ✦ -->
+<rect x="0" y="0" width="900" height="5" fill="#33DDFF" opacity="0.15">
+  <animate attributeName="y" values="0;260;0" dur="4.5s" repeatCount="indefinite"/>
+</rect>
+
+<!-- ✦ GLASS PANEL ✦ -->
+<rect x="30" y="40" width="840" height="180" rx="22"
+      fill="rgba(255,255,255,0.10)"
+      stroke="url(#supernovaBorder)" stroke-width="4"
+      filter="url(#blur)" opacity="0.95"/>
+
+<!-- ✦ NEON CORNER SHARDS ✦ -->
+<polygon points="30,40 70,40 30,60" fill="#33DDFF" opacity="0.7">
+  <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.5s" repeatCount="indefinite"/>
+</polygon>
+
+<polygon points="870,40 830,40 870,60" fill="#33DDFF" opacity="0.7">
+  <animate attributeName="opacity" values="0.3;0.9;0.3" dur="2.5s" repeatCount="indefinite"/>
+</polygon>
+
+<!-- ✦ GLITCH TITLE ✦ -->
+<text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle"
+      fill="#D7F6FF" font-family="Orbitron" font-size="32" font-weight="700">
+      <!-- filter="url(#glitch)"> -->
+  Welcome to Subhankar Maji's GitHub
+</text>
+
+<!-- ✦ SUBTITLE ✦ -->
+<text x="50%" y="72%" dominant-baseline="middle" text-anchor="middle"
+      fill="#AEE7FF" font-family="Orbitron" font-size="20">
+  Data Analytics | Machine Learning | AI Innovation
+</text>
+
+</svg>
