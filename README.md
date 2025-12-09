@@ -2,9 +2,9 @@
   <img src="https://github.com/subhankarmaji12/subhankarmaji12/blob/main/glass-header.svg" width="900" />
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=subhankarmaji12&theme=matrix&no-frame=true&row=1&column=6" />
-</p>
+</p> -->
 
 
 
@@ -35,8 +35,10 @@
   <br/><br/>
 
   <!-- GitHub Streak Stats (Centered) -->
-  <img src="https://streak-stats.demolab.com?user=subhankarmaji12&theme=tokyonight&hide_border=true&ring=39FF14&fire=39FF14&currStreakLabel=39FF14" width="820" />
-
+ <p align="center">
+  <!-- GitHub Streak Stats -->
+  <img src="https://streak-stats.vercel.app/?user=subhankarmaji12&theme=tokyonight&hide_border=true" width="820" />
+</p>
   <br/><br/>
 
   <!-- Profile Summary Card (Perfect Width) -->
