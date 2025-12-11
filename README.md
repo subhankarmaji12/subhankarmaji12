@@ -230,7 +230,7 @@
   <p align="center">
     <!-- <img src="https://raw.githubusercontent.com/subhankarmaji12/subhankarmaji12/main/glow-pink.png" width="100%" /> -->
     <!-- <br/> -->
-    <a href="https://github.com/subhankarmaji12/Zomato-EDA-Dashboard">
+    <a href="https://github.com/subhankarmaji12/Zomato_Dashboard_Analytics">
       <img src="https://raw.githubusercontent.com/subhankarmaji12/Zomato_Dashboard_Analytics/refs/heads/main/index.png"
            width="85%" />
     </a>
