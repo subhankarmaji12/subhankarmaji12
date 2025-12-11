@@ -244,7 +244,7 @@
   </p>
 
   <p align="center">
-    <a href="https://github.com/subhankarmaji12/Zomato-EDA-Dashboard">
+    <a href="https://github.com/subhankarmaji12/Zomato_Dashboard_Analytics">
       <img src="https://img.shields.io/badge/VIEW_PROJECT-00C2FF?style=for-the-badge&logo=github&logoColor=white" />
     </a>
   </p>
