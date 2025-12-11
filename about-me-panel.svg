@@ -1,0 +1,169 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Enhanced Particle Gradients -->
+    <radialGradient id="particle-glow">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="1"/>
+      <stop offset="50%" stop-color="#00A8FF" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0088CC" stop-opacity="0"/>
+    </radialGradient>
+    
+    <!-- Glow Filter for Particles -->
+    <filter id="glow-effect">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Soft Blur for Background Particles -->
+    <filter id="soft-blur">
+      <feGaussianBlur stdDeviation="12"/>
+    </filter>
+    
+    <!-- Animated Gradient Border -->
+    <linearGradient id="border-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF">
+        <animate attributeName="stop-color" values="#00D4FF; #0099FF; #00FFCC; #00D4FF" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#0099FF">
+        <animate attributeName="stop-color" values="#0099FF; #00FFCC; #00D4FF; #0099FF" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00FFCC">
+        <animate attributeName="stop-color" values="#00FFCC; #00D4FF; #0099FF; #00FFCC" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <!-- Glass Background Gradient -->
+    <linearGradient id="glass-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.05"/>
+    </linearGradient>
+    
+    <!-- Scanline Pattern -->
+    <pattern id="scanlines" width="2" height="2" patternUnits="userSpaceOnUse">
+      <rect width="2" height="1" fill="#ffffff" opacity="0.08"/>
+    </pattern>
+    
+    <!-- Inner Glow -->
+    <filter id="inner-glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="blur" in2="SourceAlpha" operator="in"/>
+    </filter>
+  </defs>
+  
+  <!-- Animated Background Particles -->
+  <circle cx="100" cy="50" r="3" fill="#00D4FF" opacity="0.6" filter="url(#glow-effect)">
+    <animate attributeName="cy" values="50;70;50" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="820" cy="160" r="2.5" fill="#00FFCC" opacity="0.5" filter="url(#glow-effect)">
+    <animate attributeName="cy" values="160;140;160" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="250" cy="30" r="2" fill="#0099FF" opacity="0.7" filter="url(#glow-effect)">
+    <animate attributeName="cx" values="250;270;250" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.7;1;0.7" dur="5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Large Floating Orbs -->
+  <circle cx="150" cy="70" r="20" fill="url(#particle-glow)" filter="url(#soft-blur)" opacity="0.4">
+    <animate attributeName="cx" values="150;280;150" dur="12s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="70;120;70" dur="10s" repeatCount="indefinite"/>
+  </circle>
+  
+  <circle cx="750" cy="140" r="15" fill="url(#particle-glow)" filter="url(#soft-blur)" opacity="0.35">
+    <animate attributeName="cx" values="750;650;750" dur="14s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="140;90;140" dur="11s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Main Glass Panel with Shadow -->
+  <rect x="18" y="22" width="864" height="164" rx="24" fill="#000000" opacity="0.3"/>
+  
+  <rect x="20" y="20" width="860" height="160" rx="22"
+        fill="url(#glass-bg)"
+        stroke="url(#border-gradient)" stroke-width="2.5"/>
+  
+  <!-- Inner Border Glow -->
+  <rect x="22" y="22" width="856" height="156" rx="20"
+        fill="none"
+        stroke="#00D4FF" stroke-width="1" opacity="0.3"/>
+  
+  <!-- Scanline Overlay -->
+  <rect x="20" y="20" width="860" height="160" rx="22"
+        fill="url(#scanlines)" opacity="0.5"/>
+  
+  <!-- Decorative Corner Accents -->
+  <circle cx="50" cy="50" r="3" fill="#00D4FF" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="850" cy="50" r="3" fill="#00FFCC" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="50" cy="150" r="3" fill="#0099FF" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="850" cy="150" r="3" fill="#00D4FF" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;1;0.8" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- LEFT SIDE: About Me -->
+  <text x="60" y="65" fill="#E0F7FF" font-size="24" font-family="Orbitron, Arial, sans-serif" font-weight="700">
+    Akram Khan
+  </text>
+  
+  <text x="60" y="95" fill="#B3E5FF" font-size="15" font-family="Orbitron, Arial, sans-serif" font-weight="500">
+    Data Analyst · Machine Learning Engineer · AI Solutions Builder
+  </text>
+  
+  <!-- Decorative Line -->
+  <line x1="60" y1="105" x2="420" y2="105" stroke="#00A8FF" stroke-width="1" opacity="0.4">
+    <animate attributeName="x2" values="60;420;60" dur="4s" repeatCount="indefinite"/>
+  </line>
+  
+  <text x="60" y="128" fill="#D9F4FF" font-size="13" font-family="Orbitron, Arial, sans-serif">
+    I design data-driven systems that turn raw information
+  </text>
+  <text x="60" y="148" fill="#D9F4FF" font-size="13" font-family="Orbitron, Arial, sans-serif">
+    into scalable analytics, automation, and intelligent products.
+  </text>
+  
+  <!-- Vertical Divider -->
+  <line x1="475" y1="50" x2="475" y2="170" stroke="url(#border-gradient)" stroke-width="2" opacity="0.3"/>
+  
+  <!-- RIGHT SIDE: Focus Areas -->
+  <text x="510" y="65" fill="#E0F7FF" font-size="19" font-family="Orbitron, Arial, sans-serif" font-weight="700">
+    Core Focus Areas
+  </text>
+  
+  <!-- Bullet Points with Icons -->
+  <circle cx="515" cy="94" r="3" fill="#00D4FF">
+    <animate attributeName="r" values="3;4;3" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <text x="530" y="100" fill="#B3E5FF" font-size="13" font-family="Orbitron, Arial, sans-serif">
+    Cloud Data &amp; ETL/ELT on Azure
+  </text>
+  
+  <circle cx="515" cy="114" r="3" fill="#00FFCC">
+    <animate attributeName="r" values="3;4;3" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <text x="530" y="120" fill="#B3E5FF" font-size="13" font-family="Orbitron, Arial, sans-serif">
+    Machine Learning for business decisions
+  </text>
+  
+  <circle cx="515" cy="134" r="3" fill="#0099FF">
+    <animate attributeName="r" values="3;4;3" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <text x="530" y="140" fill="#B3E5FF" font-size="13" font-family="Orbitron, Arial, sans-serif">
+    AI-powered dashboards &amp; automation
+  </text>
+  
+  <circle cx="515" cy="154" r="3" fill="#00D4FF">
+    <animate attributeName="r" values="3;4;3" dur="2.8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="530" y="160" fill="#B3E5FF" font-size="13" font-family="Orbitron, Arial, sans-serif">
+    Practical, end-to-end project delivery
+  </text>
+</svg>

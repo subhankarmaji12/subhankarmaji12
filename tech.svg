@@ -1,0 +1,251 @@
+<svg width="900" height="200" viewBox="0 0 900 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Premium Gradient Background -->
+    <linearGradient id="tech-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/>
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.12"/>
+    </linearGradient>
+    
+    <!-- Animated Border Gradient -->
+    <linearGradient id="tech-border" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00D4FF">
+        <animate attributeName="stop-color" values="#00D4FF; #0099FF; #00FFCC; #00D4FF" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="50%" stop-color="#0099FF">
+        <animate attributeName="stop-color" values="#0099FF; #00FFCC; #00D4FF; #0099FF" dur="6s" repeatCount="indefinite"/>
+      </stop>
+      <stop offset="100%" stop-color="#00FFCC">
+        <animate attributeName="stop-color" values="#00FFCC; #00D4FF; #0099FF; #00FFCC" dur="6s" repeatCount="indefinite"/>
+      </stop>
+    </linearGradient>
+    
+    <!-- Card Gradients -->
+    <linearGradient id="card-bg-1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D4FF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#0099FF" stop-opacity="0.1"/>
+    </linearGradient>
+    
+    <linearGradient id="card-bg-2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00FFCC" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00D4FF" stop-opacity="0.1"/>
+    </linearGradient>
+    
+    <linearGradient id="card-bg-3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0099FF" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#00FFCC" stop-opacity="0.1"/>
+    </linearGradient>
+    
+    <!-- Enhanced Glow Effect -->
+    <filter id="card-glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Inner Shadow -->
+    <filter id="inner-shadow">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="2"/>
+      <feOffset dx="0" dy="2" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.5"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    
+    <!-- Mask for overflow -->
+    <clipPath id="slider-mask">
+      <rect x="20" y="20" width="860" height="160" rx="22"/>
+    </clipPath>
+    
+    <!-- Fade Gradients -->
+    <linearGradient id="fade-left" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0e27" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0a0e27" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="fade-right" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0a0e27" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#0a0e27" stop-opacity="1"/>
+    </linearGradient>
+    
+    <!-- Scanlines -->
+    <pattern id="scanlines" width="2" height="2" patternUnits="userSpaceOnUse">
+      <rect width="2" height="1" fill="#ffffff" opacity="0.03"/>
+    </pattern>
+  </defs>
+  
+  <!-- Ambient Background Particles -->
+  <circle cx="100" cy="50" r="2" fill="#00D4FF" opacity="0.4">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="800" cy="150" r="2.5" fill="#00FFCC" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="450" cy="30" r="1.5" fill="#0099FF" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  
+  <!-- Main Container Shadow -->
+  <rect x="18" y="22" width="864" height="164" rx="24" fill="#000000" opacity="0.4"/>
+  
+  <!-- Main Container -->
+  <rect x="20" y="20" width="860" height="160" rx="22" fill="url(#tech-bg)" stroke="url(#tech-border)" stroke-width="2.5"/>
+  
+  <!-- Inner Border Glow -->
+  <rect x="22" y="22" width="856" height="156" rx="20" fill="none" stroke="#00D4FF" stroke-width="0.5" opacity="0.4"/>
+  
+  <!-- Scanlines Overlay -->
+  <rect x="20" y="20" width="860" height="160" rx="22" fill="url(#scanlines)"/>
+  
+  <!-- Slider Container with mask -->
+  <g clip-path="url(#slider-mask)">
+    <!-- Row 1 -->
+    <g transform="translate(0, 0)">
+      <animateTransform attributeName="transform" type="translate" values="0,0; -1800,0" dur="35s" repeatCount="indefinite"/>
+      
+      <!-- Python -->
+      <rect x="40" y="40" width="110" height="45" rx="10" fill="url(#card-bg-1)" stroke="#00D4FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="95" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Python</text>
+      
+      <!-- R -->
+      <rect x="170" y="40" width="80" height="45" rx="10" fill="url(#card-bg-2)" stroke="#00FFCC" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="210" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">R</text>
+      
+      <!-- HTML -->
+      <rect x="270" y="40" width="90" height="45" rx="10" fill="url(#card-bg-3)" stroke="#0099FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="315" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">HTML</text>
+      
+      <!-- CSS -->
+      <rect x="380" y="40" width="80" height="45" rx="10" fill="url(#card-bg-1)" stroke="#00D4FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="420" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">CSS</text>
+      
+      <!-- MySQL -->
+      <rect x="480" y="40" width="100" height="45" rx="10" fill="url(#card-bg-2)" stroke="#00FFCC" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="530" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">MySQL</text>
+      
+      <!-- PostgreSQL -->
+      <rect x="600" y="40" width="130" height="45" rx="10" fill="url(#card-bg-3)" stroke="#0099FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="665" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">PostgreSQL</text>
+      
+      <!-- SQLite -->
+      <rect x="750" y="40" width="100" height="45" rx="10" fill="url(#card-bg-1)" stroke="#00D4FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="800" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">SQLite</text>
+      
+      <!-- Azure -->
+      <rect x="870" y="40" width="90" height="45" rx="10" fill="url(#card-bg-2)" stroke="#00FFCC" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="915" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Azure</text>
+      
+      <!-- Databricks -->
+      <rect x="980" y="40" width="130" height="45" rx="10" fill="url(#card-bg-3)" stroke="#0099FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1045" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Databricks</text>
+      
+      <!-- Apache Spark -->
+      <rect x="1130" y="40" width="150" height="45" rx="10" fill="url(#card-bg-1)" stroke="#00D4FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1205" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Apache Spark</text>
+      
+      <!-- Spark MLlib -->
+      <rect x="1300" y="40" width="130" height="45" rx="10" fill="url(#card-bg-2)" stroke="#00FFCC" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1365" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Spark MLlib</text>
+      
+      <!-- PowerBI -->
+      <rect x="1450" y="40" width="110" height="45" rx="10" fill="url(#card-bg-3)" stroke="#0099FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1505" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Power BI</text>
+      
+      <!-- Matplotlib -->
+      <rect x="1580" y="40" width="120" height="45" rx="10" fill="url(#card-bg-1)" stroke="#00D4FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1640" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Matplotlib</text>
+      
+      <!-- Duplicate for seamless loop -->
+      <rect x="1840" y="40" width="110" height="45" rx="10" fill="url(#card-bg-1)" stroke="#00D4FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1895" y="67" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Python</text>
+    </g>
+    
+    <!-- Row 2 -->
+    <g transform="translate(0, 0)">
+      <animateTransform attributeName="transform" type="translate" values="-200,0; -2000,0" dur="40s" repeatCount="indefinite"/>
+      
+      <!-- Seaborn -->
+      <rect x="240" y="105" width="110" height="45" rx="10" fill="url(#card-bg-2)" stroke="#00FFCC" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="295" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Seaborn</text>
+      
+      <!-- Plotly -->
+      <rect x="370" y="105" width="100" height="45" rx="10" fill="url(#card-bg-3)" stroke="#0099FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="420" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Plotly</text>
+      
+      <!-- Streamlit -->
+      <rect x="490" y="105" width="120" height="45" rx="10" fill="url(#card-bg-1)" stroke="#00D4FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="550" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Streamlit</text>
+      
+      <!-- Dash -->
+      <rect x="630" y="105" width="90" height="45" rx="10" fill="url(#card-bg-2)" stroke="#00FFCC" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="675" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Dash</text>
+      
+      <!-- Jupyter -->
+      <rect x="740" y="105" width="110" height="45" rx="10" fill="url(#card-bg-3)" stroke="#0099FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="795" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Jupyter</text>
+      
+      <!-- Anaconda -->
+      <rect x="870" y="105" width="120" height="45" rx="10" fill="url(#card-bg-1)" stroke="#00D4FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="930" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Anaconda</text>
+      
+      <!-- Spyder -->
+      <rect x="1010" y="105" width="100" height="45" rx="10" fill="url(#card-bg-2)" stroke="#00FFCC" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1060" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Spyder</text>
+      
+      <!-- RStudio -->
+      <rect x="1130" y="105" width="110" height="45" rx="10" fill="url(#card-bg-3)" stroke="#0099FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1185" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">RStudio</text>
+      
+      <!-- VS Code -->
+      <rect x="1260" y="105" width="110" height="45" rx="10" fill="url(#card-bg-1)" stroke="#00D4FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1315" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">VS Code</text>
+      
+      <!-- PyCharm -->
+      <rect x="1390" y="105" width="110" height="45" rx="10" fill="url(#card-bg-2)" stroke="#00FFCC" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1445" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">PyCharm</text>
+      
+      <!-- Git -->
+      <rect x="1520" y="105" width="80" height="45" rx="10" fill="url(#card-bg-3)" stroke="#0099FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1560" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Git</text>
+      
+      <!-- GitHub -->
+      <rect x="1620" y="105" width="100" height="45" rx="10" fill="url(#card-bg-1)" stroke="#00D4FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1670" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">GitHub</text>
+      
+      <!-- Ubuntu -->
+      <rect x="1740" y="105" width="100" height="45" rx="10" fill="url(#card-bg-2)" stroke="#00FFCC" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1790" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Ubuntu</text>
+      
+      <!-- Windows -->
+      <rect x="1860" y="105" width="110" height="45" rx="10" fill="url(#card-bg-3)" stroke="#0099FF" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="1915" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Windows</text>
+      
+      <!-- Duplicate -->
+      <rect x="2040" y="105" width="110" height="45" rx="10" fill="url(#card-bg-2)" stroke="#00FFCC" stroke-width="2" filter="url(#card-glow)"/>
+      <text x="2095" y="132" fill="#E0F7FF" font-size="14" font-family="Orbitron, Arial, sans-serif" font-weight="700" text-anchor="middle">Seaborn</text>
+    </g>
+  </g>
+  
+  <!-- Fade Edges with Enhanced Effect -->
+  <rect x="20" y="20" width="100" height="160" fill="url(#fade-left)" rx="22"/>
+  <rect x="780" y="20" width="100" height="160" fill="url(#fade-right)" rx="22"/>
+  
+  <!-- Corner Accent Lights -->
+  <circle cx="40" cy="40" r="2.5" fill="#00D4FF" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="860" cy="40" r="2.5" fill="#00FFCC" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="2.5s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="40" cy="160" r="2.5" fill="#0099FF" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="860" cy="160" r="2.5" fill="#00D4FF" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;1;0.9" dur="2.2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
