@@ -2,6 +2,14 @@
   <img src="https://github.com/subhankarmaji12/subhankarmaji12/blob/main/glass-header.svg" width="900" />
 </p>
 
+<p align="center">
+  <img src="https://github.com/subhankarmaji12/subhankarmaji12/blob/main/tech.svg" width="900" />
+</p>
+
+<p align="center">
+  <img src="https://github.com/subhankarmaji12/subhankarmaji12/blob/main/about-me-panel.svg" width="900" />
+</p>
+
 <!-- <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=subhankarmaji12&theme=matrix&no-frame=true&row=1&column=6" />
 </p> -->
