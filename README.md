@@ -159,26 +159,24 @@
 
 <!-- ================= PROJECT 1 ================= -->
 <td width="50%">
-  <h3 align="center">🛒 Blinkit Sales Analysis</h3>
+  <h3 align="center">☁️ Azure Sales Data Pipeline</h3>
 
   <p align="center">
-    <!-- <img src="https://raw.githubusercontent.com/subhankarmaji12/subhankarmaji12/main/glow-green.png" width="100%" />
-    <br/> -->
-    <a href="https://github.com/subhankarmaji12/blinkit-sales-analysis">
-      <img src="https://raw.githubusercontent.com/subhankarmaji12/blinkit-sales-analysis/main/BlinkitDataAnalysis.png"
+    <a href="https://github.com/subhankarmaji12/azure-sales-data-pipeline">
+      <img src="https://github.com/subhankarmaji12/azure-sales-data-pipeline/blob/main/img.jpeg"
            width="85%" />
     </a>
   </p>
 
-  <p align="center">End-to-end EDA + ML project analyzing Blinkit sales performance.</p>
+  <p align="center">Hybrid ETL/ELT pipeline using ADF, Databricks, Synapse & Power BI.</p>
 
   <p align="center">
-    <img src="https://img.shields.io/github/stars/subhankarmaji12/blinkit-sales-analysis?color=39FF14&style=flat" />
-    <img src="https://img.shields.io/github/forks/subhankarmaji12/blinkit-sales-analysis?color=39FF14&style=flat" />
+    <img src="https://img.shields.io/github/stars/subhankarmaji12/azure-sales-data-pipeline?color=39FF14&style=flat" />
+    <img src="https://img.shields.io/github/forks/subhankarmaji12/azure-sales-data-pipeline?color=39FF14&style=flat" />
   </p>
 
   <p align="center">
-    <a href="https://github.com/subhankarmaji12/blinkit-sales-analysis">
+    <a href="https://github.com/subhankarmaji12/azure-sales-data-pipeline">
       <img src="https://img.shields.io/badge/VIEW_PROJECT-00C2FF?style=for-the-badge&logo=github&logoColor=white" />
     </a>
   </p>
