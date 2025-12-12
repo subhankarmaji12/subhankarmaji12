@@ -22,38 +22,45 @@
 <!-- GitHub Contribution Graph -->
 <!-- 🚀 Sci-Fi GitHub Stats -->
 
-### 📊 GitHub Stats 
+### 📊 GitHub Stats  
+
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=subhankarmaji12&style=for-the-badge&color=39FF14" />
+  <img src="https://komarev.com/ghpvc/?username=coder-akram-khan&style=for-the-badge&color=39FF14" />
 </p>
 
+<details>
+<summary align="center"><b>🧮 Click to Expand Full GitHub Analytics</b></summary>
+<br/>
 
 <p align="center">
-
-  <!-- GitHub Stats + Top Languages (Aligned Row) -->
+  <!-- GitHub Stats + Top Languages -->
   <img src="https://github-readme-stats-one-bice.vercel.app/api?username=subhankarmaji12&show_icons=true&theme=dracula&hide_border=true" height="170" />
   &nbsp;&nbsp;&nbsp;
   <img src="https://github-readme-stats-one-bice.vercel.app/api/top-langs?username=subhankarmaji12&layout=compact&theme=dracula&hide_border=true" height="170" />
+</p>
 
-  <br/><br/>
+<br/>
 
-  <!-- Neon Contribution Graph (Full Width) -->
+<p align="center">
+  <!-- Neon Contribution Graph -->
   <img src="https://ghchart.rshah.org/39ff14/subhankarmaji12" width="820" />
+</p>
 
-  <br/><br/>
+<br/>
 
-  <!-- GitHub Streak Stats (Centered) -->
- <p align="center">
+<p align="center">
   <!-- GitHub Streak Stats -->
   <img src="https://streak-stats.vercel.app/?user=subhankarmaji12&theme=tokyonight&hide_border=true" width="820" />
 </p>
-  <br/><br/>
 
-  <!-- Profile Summary Card (Perfect Width) -->
+<br/>
+
+<p align="center">
+  <!-- Profile Summary Card -->
   <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=subhankarmaji12&theme=tokyonight" width="820" />
-
 </p>
 
+</details>
 
 
 
